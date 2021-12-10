@@ -6,7 +6,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
--<https://github.com/DmytroSheik/DmytroSheik/blob/main/Ansible/install-elk.yml>
+[Install ELK](Ansible/install-elk.yml)
 
 This document contains the following details:
 - Description of the Topology
@@ -70,8 +70,7 @@ The playbook implements the following tasks:
 - Download the docker_containter image for ELK stack: _sebp/elk:761_ and always start/restart on boot.
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
- 
-
+![Docker ps](https://github.com/DmytroSheik/DmytroSheik/blob/main/Screenshots/dockerproj1.PNG)
 
 ### Target Machines & Beats
 
